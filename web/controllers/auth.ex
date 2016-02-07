@@ -1,5 +1,5 @@
-defmodule Rumbl.Auth
-  import Plug.conn
+defmodule Rumbl.Auth do
+  import Plug.Conn
 
   def init(opts) do
     Keyword.fetch!(opts, :repo)
